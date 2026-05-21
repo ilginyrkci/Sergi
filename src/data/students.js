@@ -8,7 +8,9 @@ import lalezarMotifi from '../assets/Lalezar-Motifi.jpg';
 import kocboynuzu from '../assets/Koc-boynuzu-Motifi.jpeg';
 import salmotifi from '../assets/Sal-Motifi.jpeg';
 import yildizmotifi from '../assets/Yildiz-Motifi.jpeg';
-
+import akrepmotifi from '../assets/Akrep-Motifi.jpeg';
+import ejdermotifi from '../assets/Ejder-Motifi.jpeg';
+import kazayağımotifi from '../assets/Kazayağı-Motifi.jpeg';
 
 const student1 = {
   id: 1,
