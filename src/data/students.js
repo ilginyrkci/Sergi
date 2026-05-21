@@ -11,6 +11,16 @@ import yildizmotifi from '../assets/Yildiz-Motifi.jpeg';
 import akrepmotifi from '../assets/Akrep-Motifi.jpeg';
 import ejdermotifi from '../assets/Ejder-Motifi.jpeg';
 import kazayağımotifi from '../assets/Kazayağı-Motifi.jpeg';
+import yildizmotifi2 from '../assets/Yildiz-Motifi-2.jpeg';
+import elibelinde from '../assets/Eli-Belinde.jpeg';
+import cengelagzi from '../assets/Cengel-Agzi.jpeg'
+
+
+
+
+
+
+
 
 const student1 = {
   id: 1,
@@ -130,7 +140,7 @@ const student3 = {
       dimensions: '4000 × 4000 px',
       year: 2026,
       image: akrepmotifi,
-      tags: ['Artvin', 'Geometrik', 'Geleneksel'],
+      tags: ['Artvin', 'Geometrik', 'Geleneksel', 'Tılsım'],
       color: 'from-orange-900/40 to-red-900/30',
       accentColor: 'text-orange-400',
       accentBorder: 'border-orange-500/30',
@@ -168,8 +178,59 @@ const student3 = {
   ],
 };
 
+
+const student4 = {
+  id: 4,
+  works: [
+    {
+      id: 1,
+      title: 'Çengel Ağzı Motifi',
+      titleEn: 'Hook Motif',
+      description: 'Anadolu’nun geleneksel motiflerinde önemli bir yere sahip olan ve Ege Bölgesi yöresine ait halı ile kilimlerde yoğun biçimde karşımıza çıkan Çengel veya diğer adıyla Kurt Ağzı motifi, simetrik, keskin ve kıvrımlı hatlardan oluşan güçlü bir koruma ve savunma sembolüdür. Ege’de doğayla iç içe yaşayan ve geçimini hayvancılıkla sağlayan topluluklar için "kurt", sürüleri ve yuvayı tehdit eden en büyük dış tehlikelerden biri olarak görülmüştür. Bu tehlikeden korunma içgüdüsüyle geliştirilen motif; keskin hatlarıyla kötülükleri, nazarı ve somut tehlikeleri "yakalama" veya onları "geri püskürtme" fikrini tezyini bir dille somutlaştırır. Dokuyan kişinin ailesini, evini ve yaşam alanını her türlü dış tehdide karşı koruma iradesini yansıtan bu geometrik örüntü bulduğu yerde manevi bir kalkan ve kendine özgü dinamik bir estetik nizam kazandırdığına inanılır. Bu proje kapsamında, Ege el sanatları hafızasında mutlak korumayı ve estetik direnci temsil eden Çengel / Kurt Ağzı motifi, geleneksel soyut kalıplarından arındırılarak modern ve bütün bir dil anlatımıyla yeniden kurgulanmıştır. Bu tasarımla birlikte insan hayatının bir çemberle, bütünleşmesini simgelemek istenmiştir.',
+      shortDesc: 'Ege yöresi dokumalarından ilham alan, korunma ve tılsımı simgeleyen geleneksel çengel ağzı motifinin dijital yorumu.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: cengelagzi,
+      tags: ['Ege', 'Geometrik', 'Geleneksel', 'Tılsım'],
+      color: 'from-orange-900/40 to-red-900/30',
+      accentColor: 'text-orange-400',
+      accentBorder: 'border-orange-500/30',
+    },
+    {
+      id: 2,
+      title: 'Eli Belinde Motifi',
+      titleEn: 'Hands on Hips Motif',
+      description: 'Anadolu dokuma sanatının en köklü ve anlam yüklü sembollerinden biri olan ve Ege Bölgesi halı ile kilimlerinde geniş bir yer tutan Eli Belinde motifi, kadın figürünün stilize edilmiş bir temsilidir. İki yana açılan kollar ve bel kısmındaki güçlü vurguyla "elleri belinde duran kadın" duruşunu simgeleyen bu motif; temelde annelik, doğurganlık ve bereketi ifade eder. Ege’de yaşayan topluluklar için kadın, ailenin ve yaşamın devamlılığının merkezinde yer aldığından, bu desen yalnızca bir süsleme unsuru değil; aynı zamanda yaşamın kaynağı olan kadına ve onun toplumsal gücüne duyulan derin saygının tezyini bir dışavurumudur. Özellikle çeyiz olarak hazırlanan dokumalarda sıklıkla tekrar edilen bu figür; genç kızların evlilik isteğini, çocuk sahibi olma arzusunu, mutlu bir yuva kurma dileğini ve neslin devamı gibi kutsal anlamları yüzeylere aktaran zamansız bir görsel iletişim dilidir. Bu proje kapsamında, Ege el sanatları hafızasında dişil enerjiyi, bereketi ve kadının gücünü temsil eden Eli Belinde motifi, geleneksel soyutlama sınırlarından arındırılarak tamamen modern bir dille yeniden revize edilmiştir. Tasarımda, insanın sosyal yaşamında kadının yerini ve bereketin doğmasını simgelemesi hedeflenmiştir.',
+      shortDesc: 'Ege yöresi dokumalarından ilham alan, doğurganlığı ve kadının gücünü simgeleyen geleneksel eli belinde motifinin dijital yorumu.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: elibelinde,
+      tags: ['EliBelinde', 'Geometrik', 'Ege'],
+      color: 'from-purple-900/40 to-indigo-900/30',
+      accentColor: 'text-purple-400',
+      accentBorder: 'border-purple-500/30',
+    },
+    {
+      id: 3,
+      title: 'Yıldız Motifi',
+      titleEn: 'Star Motif',
+      description: 'Geleneksel Anadolu motiflerinin gözde motifi olan ve Ege Bölgesinde kendine has bir doku oluşturan Yıldız motifi, gökyüzü ile yeryüzünün, insan ile evren arasındaki kadim bağın geometrik bir ifadesidir. Bölge kültüründe çok köşeli, simetrik ve net hatlarla ilmek ilmek işlenen bu motif; evrenin kusursuz nizamını, ilahi dengeyi, umudu ve aydınlığı simgeler. Doğayla ve gökyüzüyle iç içe yaşayan Ege topluluklarında yıldızlar, sadece görsel süsleme unsuru değil, aynı zamanda karanlık gecelerde yol gösteren, yaşamın içinde doğru yönü bulmayı temsil eden birer rehber niteliğindedir. Keskin ve çok yönlü geometrik formunun kötü enerjileri dağıttığına, nazarı ve olumsuzlukları mekandan uzaklaştırdığına inanılan bu sembol, dokuma yüzeylerindeki ritmik tekrarlarıyla haneye manevi bir koruma zırhı ve zamansız bir güç kazandırır. Bu proje kapsamında, Ege el sanatları hafızasında umudu ve kozmik nizamı temsil eden Yıldız motifi, geleneksel soyutlama kalıplarından geometrik bir formla yeniden revize edilmiştir. Egenin köklü zanaat belleğini günümüzün gözüyle tekrar değerlendirip, insan hayatında maneviyatı ve umudu simgelemesi hedeflenmiştir',
+      shortDesc: 'Ege yöresi dokumalarından ilham alan, umudu ve kozmik nizamı simgeleyen geleneksel yıldız motifinin dijital yorumu.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: yildizmotifi2,
+      tags: ['Yıldız', 'Geometrik', 'Ege'],
+      color: 'from-blue-900/40 to-cyan-900/30',
+      accentColor: 'text-cyan-400',
+      accentBorder: 'border-cyan-500/30',
+    },
+  ],
+};
 const placeholderStudents = Array.from({ length: 5 }, (_, si) => ({
-  id: si + 4,
+  id: si + 5,
   works: [
     {
       id: 1,
@@ -198,4 +259,4 @@ const placeholderStudents = Array.from({ length: 5 }, (_, si) => ({
   ],
 }));
 
-export const students = [student1, student2, student3, ...placeholderStudents];
+export const students = [student1, student2, student3, student4, ...placeholderStudents];

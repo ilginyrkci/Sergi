@@ -54,10 +54,10 @@ export default function QRPrintPage() {
                 QR Yazdırma
               </span>
               <h1 className="font-display text-3xl sm:text-4xl font-bold text-white">
-                <span className="gold-gradient-text">24 QR Kod</span>
+                <span className="gold-gradient-text">{allWorks.length} QR Kod</span>
               </h1>
               <p className="text-white/40 mt-2 text-sm">
-                8 sanatçı × 3 eser — Her kodu eserin yanına yerleştirin
+                {students.length} sanatçı × 3 eser — Her kodu eserin yanına yerleştirin
               </p>
             </div>
 
