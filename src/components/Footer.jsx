@@ -22,12 +22,17 @@ export default function Footer() {
         {/* Logolar / Kurumlar */}
         <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12 opacity-70 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
           
-          {/* Arel Üniversitesi & Moda Tasarım */}
-          <div className="flex flex-col items-center gap-2">
+          {/* Arel Üniversitesi */}
+          <div className="flex flex-col items-center justify-center px-2">
             <img src={arelLogo} alt="İstanbul Arel Üniversitesi" className="h-10 sm:h-12 object-contain" />
-            <span className="text-[9px] uppercase tracking-widest text-white/60 text-center">
+          </div>
+
+          {/* Meslek Yüksekokulu Moda Tasarım */}
+          <div className="flex flex-col items-center justify-center px-2 border-l border-white/10 pl-6 sm:pl-10">
+            <span className="font-sans font-semibold text-xs tracking-widest uppercase text-white/90 text-center leading-tight">
               Meslek Yüksekokulu<br/>Moda Tasarım Programı
             </span>
+            <span className="text-white/30 text-[10px] mt-1">(Logo Bekleniyor)</span>
           </div>
           
           {/* ArelPro */}
