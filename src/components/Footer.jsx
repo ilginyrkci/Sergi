@@ -9,11 +9,52 @@ export default function Footer() {
   }
 
   return (
-    <footer className="w-full py-10 mt-12 border-t border-white/5 relative z-10 bg-dark-950/40 backdrop-blur-sm">
-      <div className="max-w-6xl mx-auto px-4 flex flex-col items-center justify-center gap-4">
-        <div className="h-12 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
-          <img src={arelLogo} alt="İstanbul Arel Üniversitesi" className="h-full object-contain" />
+    <footer className="w-full py-12 mt-16 border-t border-white/5 relative z-10 bg-dark-950/60 backdrop-blur-md">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col items-center justify-center gap-8">
+        
+        {/* Ortadaki Proje Yazısı */}
+        <div className="text-center max-w-2xl mx-auto">
+          <p className="text-white/80 text-sm sm:text-base font-medium leading-relaxed tracking-wide">
+            Geleneksel Desenlerin Modernize Ederek Lazer Tekniği Uygulanması
+          </p>
         </div>
+
+        {/* Logolar / Kurumlar */}
+        <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12 opacity-70 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+          
+          {/* Arel Üniversitesi & Moda Tasarım */}
+          <div className="flex flex-col items-center gap-2">
+            <img src={arelLogo} alt="İstanbul Arel Üniversitesi" className="h-10 sm:h-12 object-contain" />
+            <span className="text-[9px] uppercase tracking-widest text-white/60 text-center">
+              Meslek Yüksekokulu<br/>Moda Tasarım Programı
+            </span>
+          </div>
+          
+          {/* ArelPro */}
+          <div className="flex flex-col items-center justify-center px-2">
+            <span className="font-display font-bold text-xl tracking-widest text-white/90">
+              ARELPRO
+            </span>
+          </div>
+
+          {/* Beylikdüzü Belediyesi */}
+          <div className="flex flex-col items-center justify-center px-2 border-l border-white/10 pl-6 sm:pl-10">
+            <span className="font-sans font-semibold text-sm tracking-wide text-white/90 text-center leading-tight">
+              Beylikdüzü<br/>Belediyesi
+            </span>
+          </div>
+
+          {/* Taypa */}
+          <div className="flex flex-col items-center justify-center px-2 border-l border-white/10 pl-6 sm:pl-10">
+            <span className="font-display font-black text-2xl italic tracking-tighter text-white/90">
+              TAYPA
+            </span>
+          </div>
+
+        </div>
+
+        <div className="h-px w-24 bg-gradient-to-r from-transparent via-white/10 to-transparent mt-2" />
+
         <p className="text-white/30 text-xs uppercase tracking-widest font-medium text-center">
           İstanbul Arel Üniversitesi © 2026<br/>Dijital Sergi Projesi
         </p>
