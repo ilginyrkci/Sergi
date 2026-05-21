@@ -1,5 +1,8 @@
 import { useLocation } from 'react-router-dom';
 import arelLogo from '../assets/arel_logo.png';
+import arelProLogo from '../assets/Pro.png';
+import beylikduzuLogo from '../assets/beylikduzu.jpg';
+import taypaLogo from '../assets/Taypa.png';
 
 export default function Footer() {
   const location = useLocation();
@@ -32,28 +35,21 @@ export default function Footer() {
             <span className="font-sans font-semibold text-xs tracking-widest uppercase text-white/90 text-center leading-tight">
               Meslek Yüksekokulu<br/>Moda Tasarım Programı
             </span>
-            <span className="text-white/30 text-[10px] mt-1">(Logo Bekleniyor)</span>
           </div>
           
           {/* ArelPro */}
           <div className="flex flex-col items-center justify-center px-2">
-            <span className="font-display font-bold text-xl tracking-widest text-white/90">
-              ARELPRO
-            </span>
+            <img src={arelProLogo} alt="ArelPro" className="h-10 sm:h-12 object-contain" />
           </div>
 
           {/* Beylikdüzü Belediyesi */}
           <div className="flex flex-col items-center justify-center px-2 border-l border-white/10 pl-6 sm:pl-10">
-            <span className="font-sans font-semibold text-sm tracking-wide text-white/90 text-center leading-tight">
-              Beylikdüzü<br/>Belediyesi
-            </span>
+            <img src={beylikduzuLogo} alt="Beylikdüzü Belediyesi" className="h-12 sm:h-14 object-contain rounded-md" />
           </div>
 
           {/* Taypa */}
           <div className="flex flex-col items-center justify-center px-2 border-l border-white/10 pl-6 sm:pl-10">
-            <span className="font-display font-black text-2xl italic tracking-tighter text-white/90">
-              TAYPA
-            </span>
+            <img src={taypaLogo} alt="Taypa" className="h-10 sm:h-12 object-contain" />
           </div>
 
         </div>
