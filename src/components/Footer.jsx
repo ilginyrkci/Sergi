@@ -26,8 +26,9 @@ export default function Footer() {
         <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12 opacity-70 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
           
           {/* Arel Üniversitesi */}
-          <div className="flex flex-col items-center justify-center px-2">
+          <div className="flex flex-col items-center justify-center gap-2 px-2">
             <img src={arelLogo} alt="İstanbul Arel Üniversitesi" className="h-10 sm:h-12 object-contain" />
+            <span className="text-[9px] text-white/50 tracking-wider uppercase">İstanbul Arel Üniversitesi</span>
           </div>
 
           {/* Meslek Yüksekokulu Moda Tasarım */}
@@ -38,18 +39,21 @@ export default function Footer() {
           </div>
           
           {/* ArelPro */}
-          <div className="flex flex-col items-center justify-center px-2">
+          <div className="flex flex-col items-center justify-center gap-2 px-2 border-l border-white/10 pl-6 sm:pl-10">
             <img src={arelProLogo} alt="ArelPro" className="h-10 sm:h-12 object-contain" />
+            <span className="text-[9px] text-white/50 tracking-wider uppercase">ArelPro</span>
           </div>
 
           {/* Beylikdüzü Belediyesi */}
-          <div className="flex flex-col items-center justify-center px-2 border-l border-white/10 pl-6 sm:pl-10">
-            <img src={beylikduzuLogo} alt="Beylikdüzü Belediyesi" className="h-12 sm:h-14 object-contain rounded-md" />
+          <div className="flex flex-col items-center justify-center gap-2 px-2 border-l border-white/10 pl-6 sm:pl-10">
+            <img src={beylikduzuLogo} alt="Beylikdüzü Belediyesi" className="h-10 sm:h-12 object-contain rounded-md" />
+            <span className="text-[9px] text-white/50 tracking-wider uppercase text-center leading-tight">Beylikdüzü<br/>Belediyesi</span>
           </div>
 
           {/* Taypa */}
-          <div className="flex flex-col items-center justify-center px-2 border-l border-white/10 pl-6 sm:pl-10">
+          <div className="flex flex-col items-center justify-center gap-2 px-2 border-l border-white/10 pl-6 sm:pl-10">
             <img src={taypaLogo} alt="Taypa" className="h-10 sm:h-12 object-contain" />
+            <span className="text-[9px] text-white/50 tracking-wider uppercase">Taypa</span>
           </div>
 
         </div>
