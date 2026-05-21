@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import StudentPage from './pages/StudentPage';
 import WorkDetailPage from './pages/WorkPage';
 import QRPrintPage from './pages/QRPrintPage';
+import Footer from './components/Footer';
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/qr" element={<QRPrintPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
