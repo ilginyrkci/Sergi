@@ -20,8 +20,9 @@ import kozmiklaledalmotifi from '../assets/Kozmik-Lale-Dal-Motifi.jpeg';
 import akrepmotifi2 from '../assets/Akrep-Motifi-2.jpeg';
 import hayatagacimotifi from '../assets/Hayat-Agaci-Motifi.jpeg';
 import suyolu from '../assets/Su-Yolu.jpeg';
-
-
+import trakyagulu from '../assets/Trakya-Gul.jpeg';
+import hatmigulu from '../assets/Hatmi-Gulu.jpeg';
+import ciftgul from '../assets/Gul-Cift.jpeg';
 
 
 
@@ -335,12 +336,12 @@ const student6 = {
     },
   ],
 };
-const placeholderStudents = Array.from({ length: 2 }, (_, si) => ({
-  id: si + 7,
+const placeholderStudents = Array.from({ length: 1 }, (_, si) => ({
+  id: si + 8,
   works: [
     {
       id: 1,
-      title: `Eser ${(si + 6) * 3 + 1}`,
+      title: `Eser ${(si + 7) * 3 + 1}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -348,7 +349,7 @@ const placeholderStudents = Array.from({ length: 2 }, (_, si) => ({
     },
     {
       id: 2,
-      title: `Eser ${(si + 6) * 3 + 2}`,
+      title: `Eser ${(si + 7) * 3 + 2}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -356,7 +357,7 @@ const placeholderStudents = Array.from({ length: 2 }, (_, si) => ({
     },
     {
       id: 3,
-      title: `Eser ${(si + 6) * 3 + 3}`,
+      title: `Eser ${(si + 7) * 3 + 3}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -365,4 +366,4 @@ const placeholderStudents = Array.from({ length: 2 }, (_, si) => ({
   ],
 }));
 
-export const students = [student1, student2, student3, student4, student5, student6, ...placeholderStudents];
+export const students = [student1, student2, student3, student4, student5, student6, student7, ...placeholderStudents];
