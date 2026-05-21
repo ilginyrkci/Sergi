@@ -9,7 +9,7 @@ export default function HomePage() {
   useEffect(() => {
     document.title = 'Dijital Sergi 2026 — Eserler';
     const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute('content', '2026 dijital sergi koleksiyonu. 8 sanatçı, 24 özgün eser.');
+    if (meta) meta.setAttribute('content', '2026 dijital sergi koleksiyonu. 8 tasarımcı, 24 özgün eser.');
     setTimeout(() => setMounted(true), 100);
   }, []);
 
@@ -46,12 +46,12 @@ export default function HomePage() {
           </h1>
 
           <p className="text-white/50 text-base sm:text-lg max-w-xl mx-auto leading-relaxed mt-4">
-            8 sanatçı, 24 özgün eser. Dijital sanatın sınırlarını keşfedin.
+            8 tasarımcı, 24 özgün eser. Dijital sanatın sınırlarını keşfedin.
           </p>
 
           <div className="flex items-center justify-center gap-8 sm:gap-12 mt-8">
             {[
-              { value: '8', label: 'Sanatçı' },
+              { value: '8', label: 'Tasarımcı' },
               { value: '24', label: 'Eser' },
               { value: '2026', label: 'Yıl' },
             ].map((s) => (
@@ -66,7 +66,7 @@ export default function HomePage() {
         {/* Divider */}
         <div className="flex items-center gap-4 mb-10">
           <div className="h-px flex-1 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-          <span className="text-white/20 text-xs uppercase tracking-widest">Sanatçılar</span>
+          <span className="text-white/20 text-xs uppercase tracking-widest">Tasarımcılar</span>
           <div className="h-px flex-1 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
         </div>
 
@@ -75,7 +75,7 @@ export default function HomePage() {
           id="students-grid"
           className={`grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 transition-all duration-700 delay-200
             ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
-          aria-label="Sanatçı koleksiyonu"
+          aria-label="Tasarımcı koleksiyonu"
         >
           {students.map((student, idx) => (
             <StudentCard key={student.id} student={student} index={idx} />
@@ -132,7 +132,7 @@ function StudentCard({ student, index }) {
         {previewWork?.image ? (
           <img
             src={previewWork.image}
-            alt={`${student.designer || `Sanatçı ${student.id}`} önizleme`}
+            alt={`${student.designer || `Tasarımcı ${student.id}`} önizleme`}
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-70"
           />
         ) : (
@@ -158,7 +158,7 @@ function StudentCard({ student, index }) {
       <div className="p-4 flex flex-col gap-3">
         <div>
           <h2 className="font-display text-base font-bold text-white group-hover:text-gold-300 transition-colors">
-            {student.designer || `Sanatçı ${student.id}`}
+            {student.designer || `Tasarımcı ${student.id}`}
           </h2>
           <p className="text-white/30 text-[10px] mt-0.5 truncate">
             {student.works.map((w) => w.title).join(' · ')}

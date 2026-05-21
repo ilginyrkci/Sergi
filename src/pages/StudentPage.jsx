@@ -13,9 +13,9 @@ export default function StudentPage() {
 
   useEffect(() => {
     if (!student) { navigate('/'); return; }
-    document.title = `Sanatçı ${student.id} — Dijital Sergi 2026`;
+    document.title = `Tasarımcı ${student.id} — Dijital Sergi 2026`;
     const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute('content', `Sanatçı ${student.id}'in 3 özgün eseri.`);
+    if (meta) meta.setAttribute('content', `Tasarımcı ${student.id}'in 3 özgün eseri.`);
     setTimeout(() => setMounted(true), 80);
   }, [student, navigate]);
 
@@ -35,7 +35,7 @@ export default function StudentPage() {
         <div className={`flex items-center gap-2 mb-10 text-sm transition-all duration-500 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
           <Link to="/" className="text-white/30 hover:text-white/60 transition-colors">Sergi</Link>
           <span className="text-white/20">/</span>
-          <span className="text-white/60">{student.designer || `Sanatçı ${student.id}`}</span>
+          <span className="text-white/60">{student.designer || `Tasarımcı ${student.id}`}</span>
         </div>
 
         {/* Header */}
@@ -43,13 +43,13 @@ export default function StudentPage() {
           <div className="flex items-end justify-between gap-4 flex-wrap">
             <div>
               <span className="exhibit-badge mb-3 inline-flex">
-                {student.region ? `${student.region} İlhamlı` : `Sanatçı #${String(student.id).padStart(2, '0')}`}
+                {student.region ? `${student.region} İlhamlı` : `Tasarımcı #${String(student.id).padStart(2, '0')}`}
               </span>
               <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
                 {student.designer ? (
                   <span className="gold-gradient-text">{student.designer}</span>
                 ) : (
-                  <>Sanatçı <span className="gold-gradient-text">{student.id}</span></>
+                  <>Tasarımcı <span className="gold-gradient-text">{student.id}</span></>
                 )}
               </h1>
               <p className="text-white/40 mt-2 text-sm">{student.works.length} özgün eser · 2026</p>
@@ -60,7 +60,7 @@ export default function StudentPage() {
               {student.id > 1 && (
                 <Link to={`/student/${student.id - 1}`}
                   className="glass-card p-2.5 hover:border-gold-500/30 transition-all duration-300 group"
-                  aria-label="Önceki sanatçı">
+                  aria-label="Önceki tasarımcı">
                   <svg className="w-4 h-4 text-white/50 group-hover:text-gold-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                   </svg>
@@ -69,7 +69,7 @@ export default function StudentPage() {
               {student.id < students.length && (
                 <Link to={`/student/${student.id + 1}`}
                   className="glass-card p-2.5 hover:border-gold-500/30 transition-all duration-300 group"
-                  aria-label="Sonraki sanatçı">
+                  aria-label="Sonraki tasarımcı">
                   <svg className="w-4 h-4 text-white/50 group-hover:text-gold-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
@@ -96,7 +96,7 @@ export default function StudentPage() {
             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>
-            Tüm Sanatçılar
+            Tüm Tasarımcılar
           </Link>
         </div>
       </div>

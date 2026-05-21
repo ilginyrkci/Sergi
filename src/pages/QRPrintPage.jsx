@@ -57,7 +57,7 @@ export default function QRPrintPage() {
                 <span className="gold-gradient-text">{allWorks.length} QR Kod</span>
               </h1>
               <p className="text-white/40 mt-2 text-sm">
-                {students.length} sanatçı × 3 eser — Her kodu eserin yanına yerleştirin
+                {students.length} tasarımcı × 3 eser — Her kodu eserin yanına yerleştirin
               </p>
             </div>
 
@@ -125,7 +125,7 @@ export default function QRPrintPage() {
             <div key={`print-${student.id}-${work.id}`} className="qr-card">
               <QRCodeSVG value={url} size={100} bgColor="#ffffff" fgColor="#000000" />
               <p className="qr-card-label" style={{ textAlign: 'center', marginBottom: 2 }}>
-                {student.designer || `Sanatçı #${String(student.id).padStart(2, '0')}`}
+                {student.designer || `Tasarımcı #${String(student.id).padStart(2, '0')}`}
               </p>
               <p className="qr-card-title" style={{ textAlign: 'center', marginBottom: 4 }}>
                 {work.title}
@@ -196,8 +196,8 @@ function QRCard({ student, work, url }) {
         <p className="text-white/70 text-[11px] font-semibold leading-tight truncate">
           {work.title}
         </p>
-        <p className="text-white/30 text-[9px] mt-0.5 font-mono break-all leading-tight">
-          /student/{student.id}/work/{work.id}
+        <p className="text-white/30 text-[10px] mt-0.5 font-medium break-all leading-tight uppercase tracking-wider">
+          {student.designer || `Tasarımcı ${student.id}`}
         </p>
       </div>
     </div>

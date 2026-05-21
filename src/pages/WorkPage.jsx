@@ -16,7 +16,7 @@ export default function WorkDetailPage() {
 
   useEffect(() => {
     if (!work || !student) { navigate('/'); return; }
-    document.title = `${work.title} — Sanatçı ${student.id} · Dijital Sergi 2026`;
+    document.title = `${work.title} — Tasarımcı ${student.id} · Dijital Sergi 2026`;
     const meta = document.querySelector('meta[name="description"]');
     if (meta) meta.setAttribute('content', work.description?.slice(0, 155) || '');
     setMounted(false);
@@ -45,7 +45,7 @@ export default function WorkDetailPage() {
               <Link to="/" className="text-white/30 hover:text-white/60 transition-colors">Sergi</Link>
               <span className="text-white/20">/</span>
               <Link to={`/student/${student.id}`} className="text-white/30 hover:text-white/60 transition-colors">
-                {student.designer || `Sanatçı ${student.id}`}
+                {student.designer || `Tasarımcı ${student.id}`}
               </Link>
               <span className="text-white/20">/</span>
               <span className="text-white/50 truncate max-w-[120px]">{work.title}</span>
@@ -62,7 +62,7 @@ export default function WorkDetailPage() {
               {work.image ? (
                 <img
                   src={work.image}
-                  alt={`${work.title} — ${student.designer || `Sanatçı ${student.id}`}`}
+                  alt={`${work.title} — ${student.designer || `Tasarımcı ${student.id}`}`}
                   className={`w-full object-cover transition-all duration-700 max-h-[60vh] sm:max-h-[70vh]
                     ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
                   onLoad={() => setImageLoaded(true)}
@@ -106,7 +106,7 @@ export default function WorkDetailPage() {
                 <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-2">
                   {work.title}
                 </h1>
-                <span className="exhibit-badge">{student.designer || `Sanatçı #${String(student.id).padStart(2, '0')}`}</span>
+                <span className="exhibit-badge">{student.designer || `Tasarımcı #${String(student.id).padStart(2, '0')}`}</span>
               </div>
 
               <div className="glass-card p-6">
@@ -129,7 +129,7 @@ export default function WorkDetailPage() {
                   { label: 'Teknik', value: work.medium || '—' },
                   work.dimensions ? { label: 'Boyut', value: work.dimensions } : null,
                   { label: 'Yıl', value: String(work.year || 2026) },
-                  { label: 'Tasarımcı', value: student.designer || `Sanatçı #${String(student.id).padStart(2, '0')}` },
+                  { label: 'Tasarımcı', value: student.designer || `Tasarımcı #${String(student.id).padStart(2, '0')}` },
                   student.region ? { label: 'İlham Alınan Yöre', value: student.region } : null,
                 ].filter(Boolean).map((item) => (
                   <div key={item.label}>
@@ -192,7 +192,7 @@ export default function WorkDetailPage() {
               <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
               </svg>
-              <span className="hidden sm:inline">Sanatçı</span>
+              <span className="hidden sm:inline">Tasarımcı</span>
             </Link>
 
             {nextWork ? (
