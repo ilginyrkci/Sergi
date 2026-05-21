@@ -8,9 +8,9 @@ export default function QRPrintPage() {
 
   const handlePrint = () => window.print();
 
-  // Flatten: 8 students × 3 works = 24 QR
+  // Sadece görseli (image) olan gerçek eserleri filtrele
   const allWorks = students.flatMap((s) =>
-    s.works.map((w) => ({ student: s, work: w }))
+    s.works.filter(w => w.image !== null).map((w) => ({ student: s, work: w }))
   );
 
   return (

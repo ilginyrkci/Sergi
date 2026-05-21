@@ -234,7 +234,7 @@ const placeholderStudents = Array.from({ length: 5 }, (_, si) => ({
   works: [
     {
       id: 1,
-      title: `Eser ${(si + 3) * 3 + 1}`,
+      title: `Eser ${(si + 4) * 3 + 1}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -242,7 +242,7 @@ const placeholderStudents = Array.from({ length: 5 }, (_, si) => ({
     },
     {
       id: 2,
-      title: `Eser ${(si + 3) * 3 + 2}`,
+      title: `Eser ${(si + 4) * 3 + 2}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -250,7 +250,7 @@ const placeholderStudents = Array.from({ length: 5 }, (_, si) => ({
     },
     {
       id: 3,
-      title: `Eser ${(si + 3) * 3 + 3}`,
+      title: `Eser ${(si + 4) * 3 + 3}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
