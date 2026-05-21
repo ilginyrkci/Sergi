@@ -1,5 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import arelLogo from '../assets/arel_logo.png';
+import myoLogo from '../assets/myo_logo.svg';
 import arelProLogo from '../assets/Pro.png';
 import beylikduzuLogo from '../assets/beylikduzu.jpg';
 import taypaLogo from '../assets/Taypa.png';
@@ -32,8 +33,9 @@ export default function Footer() {
           </div>
 
           {/* Meslek Yüksekokulu Moda Tasarım */}
-          <div className="flex flex-col items-center justify-center px-2 border-l border-white/10 pl-6 sm:pl-10">
-            <span className="font-sans font-semibold text-xs tracking-widest uppercase text-white/90 text-center leading-tight">
+          <div className="flex flex-col items-center justify-center gap-2 px-2 border-l border-white/10 pl-6 sm:pl-10">
+            <img src={myoLogo} alt="Arel Üniversitesi Meslek Yüksekokulu" className="h-10 sm:h-12 object-contain" />
+            <span className="text-[9px] text-white/50 tracking-wider uppercase text-center leading-tight">
               Meslek Yüksekokulu<br/>Moda Tasarım Programı
             </span>
           </div>
