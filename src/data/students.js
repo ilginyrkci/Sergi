@@ -14,7 +14,9 @@ import kazayağımotifi from '../assets/Kazayağı-Motifi.jpeg';
 import yildizmotifi2 from '../assets/Yildiz-Motifi-2.jpeg';
 import elibelinde from '../assets/Eli-Belinde.jpeg';
 import cengelagzi from '../assets/Cengel-Agzi.jpeg'
-
+import antikamotifi from '../assets/Antika-Motifi.jpeg';
+import kozmiklalemotifi from '../assets/Kozmik-Lale.jpeg';
+import kozmiklaledalmotifi from '../assets/Kozmik-Lale-Dal-Motifi.jpeg';
 
 
 
@@ -229,12 +231,62 @@ const student4 = {
     },
   ],
 };
-const placeholderStudents = Array.from({ length: 4 }, (_, si) => ({
-  id: si + 5,
+const student5 = {
+  id: 5,
   works: [
     {
       id: 1,
-      title: `Eser ${(si + 4) * 3 + 1}`,
+      title: 'Antika Motifi',
+      titleEn: 'Antika Motif',
+      description: 'Trakya bitki ve dokuma desenleri hafızasında, özellikle geleneksel kanaviçelerde ve kilimlerde bulunan ve doğanın ritmini yansıtan en karakteristik motif örüntüleri; bölgenin kültürel kimliğiyle iç içe gelişen halk kültüründe bu geometrik temelli kompozisyon; sabrı, devamlılığı, hafızayı ve nesiller arası bağın mutlak nizamını simgeler. Nakıştaki her bir gözün simetri ve matematiksel bir nizamla yüzeyde serbestçe dağılması, sadece görsel bir zenginlik sunmakla kalmaz; aynı zamanda parçadan bütüne giden döngüsel yapısıyla haneye denge, uyum ve yaşam enerjisi getirmesini temenni eden kadim bir görsel iletişim dilini kumaş yüzeyine aktarır. Bu proje kapsamında, Trakya halk sanatlarında ilmek ilmek işlenen geçmişin sanatsal kodlarını temsil eden geleneksel motif yapısı, biçimsel kalıplarından arındırılarak günümüze ve dijital göre yeniden revize edilmiştir. Motif bileşenlerinin sahip olduğu organik ve piksel yapı korunarak revize edilen bu bütüncül birleşimde, tüm yaşamın ilmeklerle birbirine bağlı olduğunu ve tek gözlü dokuların bir araya gelerek yarattığı nizami akışla birlikte anlatılmak istenmiştir. Bu revize tasarım; eski bir hikayenin modern bir yüzeydeki dijital fısıltısı olarak "Geleceğin Antikası" kavramını somutlaştırmayı hedeflemiştir.',
+      shortDesc: 'Trakya yöresi dokumalarından ilham alan, sabrı, devamlılığı, hafızayı ve nesiller arası bağın mutlak nizamını simgeleyen geleneksel antika motifinin dijital yorumu.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: antikamotifi,
+      tags: ['Trakya', 'Geometrik', 'Geleneksel', 'Döngüsellik'],
+      color: 'from-orange-900/40 to-red-900/30',
+      accentColor: 'text-orange-400',
+      accentBorder: 'border-orange-500/30',
+    },
+    {
+      id: 2,
+      title: 'Kozmik Lale Dal Motifi',
+      titleEn: 'Cosmic Tulip Stem Motif',
+      description: 'Trakya bitki desenleri hafızasında, özellikle yöresel dokumalarda, işlemelerde ve çeyiz tekstillerinde doğanın ritmini yansıtan en asil ve mistik bezemelerden biri olan Lale motifi ile onu sarmalayan Yaprak ve Ritmik Dallar; bölgenin kültürel kimliğiyle iç içe gelişen halk kültüründe bu çiçek temelli kompozisyon; ilahi aşkı, kusursuz zarafeti, yenilenmeyi ve tekliği simgeler. Lale formunun, simetrik yapraklar ve organik dallarla kusursuz bir nizami akış ve yapısal bütünlük içinde yüzeyde dağılması, sadece görsel bir zenginlik sunmakla kalmaz; aynı zamanda haneye bolluk, sadakat ve yaşam enerjisi getirmesini temenni eden kadim bir görsel iletişim dilini simgeler. Bu proje kapsamında, Trakya halk sanatlarında doğanın uyanışını ve mutlak asaleti temsil eden Lale, Yaprak ve Dallardan oluşan bu bütüncül örüntü, geleneksel biçimsel kalıplarından arındırılarak dijital ekran dilinin piksel nizamıyla yeniden revize edilmiş ve devinim anlamlarına dikkat çekilmek istenmiştir. Motif bileşenlerinin sahip olduğu geometrik yapı korunarak revize edilen bu özgün tasarımda, dört baş lale ile insanın bebeklik, gençlik, yetişkinlik ve yaşlılık döngüsünün doğallığını; parçadan bütüne akan piksel hücrelerin yarattığı kusursuzlukla da doğumdan ölüme döngünün tamamlanması simgelemek hedeflenmiştir.',
+      shortDesc: 'Trakya yöresi dokumalarından ilham alan, ilahi aşkı, kusursuz zarafeti, yenilenmeyi ve tekliği simgeleyen geleneksel lale dal motifinin dijital yorumu.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: kozmiklaledalmotifi,
+      tags: ['Lale', 'Geometrik', 'Trakya'],
+      color: 'from-purple-900/40 to-indigo-900/30',
+      accentColor: 'text-purple-400',
+      accentBorder: 'border-purple-500/30',
+    },
+    {
+      id: 3,
+      title: 'Kozmik Lale',
+      titleEn: 'Cosmic Tulip',
+      description: 'Trakya bitki desenleri hafızasında, özellikle yöresel dokumalarda, işlemelerde ve çeyiz tekstillerinde doğanın ritmini yansıtan en asil ve mistik motiflerinden biri olan Lale motifi; evrensel nizamı merhameti, şifayı, estetik zarafeti, tekliği ve yeniliği simgeler. Kendine has asil formunun, estetik olarak yaprak formlarıyla dağılması görsel zenginliğin yanında; haneye bolluk, sadakat ve yaşam enerjisinin gelmesini simgeler. Bu proje kapsamında, Trakya halk sanatlarında doğanın uyanışını ve kozmik dengeyi temsil eden Lale ve Sekiz Köşeli Yıldız örüntüsü birleştirilmiş olup, geleneksel biçimsel kalıplarından arındırılarak yeniden kurgulanmıştır. Motif bileşenlerinin sahip olduğu organik ve geometrik yapı korunarak revize edilen bu birleşimde, tüm yaşamın aynı anda kapsandığı ve geçmişin köklü hafızasının zamansız bir döngüde birleştiği; piksel bir nakış formunda anlatılmak istenmiştir.',
+      shortDesc: 'Trakya yöresi dokumalarından ilham alan, umudu ve kozmik nizamı simgeleyen geleneksel lale motifinin dijital yorumu.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: kozmiklalemotifi,
+      tags: ['Lale', 'Geometrik', 'Trakya'],
+      color: 'from-blue-900/40 to-cyan-900/30',
+      accentColor: 'text-cyan-400',
+      accentBorder: 'border-cyan-500/30',
+    },
+  ],
+};
+const placeholderStudents = Array.from({ length: 3 }, (_, si) => ({
+  id: si + 6,
+  works: [
+    {
+      id: 1,
+      title: `Eser ${(si + 5) * 3 + 1}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -242,7 +294,7 @@ const placeholderStudents = Array.from({ length: 4 }, (_, si) => ({
     },
     {
       id: 2,
-      title: `Eser ${(si + 4) * 3 + 2}`,
+      title: `Eser ${(si + 5) * 3 + 2}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -250,7 +302,7 @@ const placeholderStudents = Array.from({ length: 4 }, (_, si) => ({
     },
     {
       id: 3,
-      title: `Eser ${(si + 4) * 3 + 3}`,
+      title: `Eser ${(si + 5) * 3 + 3}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -259,4 +311,4 @@ const placeholderStudents = Array.from({ length: 4 }, (_, si) => ({
   ],
 }));
 
-export const students = [student1, student2, student3, student4, ...placeholderStudents];
+export const students = [student1, student2, student3, student4, student5, ...placeholderStudents];
