@@ -336,6 +336,58 @@ const student6 = {
     },
   ],
 };
+
+const student7 = {
+  id: 7,
+  works: [
+    {
+      id: 1,
+      title: 'Hatmi Gülü',
+      titleEn: 'Hatmi Flower',
+      description: 'Trakya bitki desenleri hafızasında, özellikle yöresel dokumalarda, işlemelerde ve çeyiz tekstillerinde doğanın ritmini yansıtan en karakteristik bitkisel bezemelerden biri olan Hatmi Çiçeği ve Başak motifi; bölgenin tarımsal kimliğiyle ve verimli topraklarıyla iç içe gelişen halk kültüründe bu çiçek temelli kompozisyon; şifayı, saflığı, doğanın uyanışını ve toprağın sunduğu mutlak bereketi simgeler. Beş geniş taç yapraktan oluşan hatmi formunun, ritmik yaprak dalları ve başak örüntüleriyle yüzeyde serbestçe dağılması, sadece görsel bir zenginlik sunmakla kalmaz; aynı zamanda haneye bolluk, sağlık ve yaşam enerjisi getirmesini temenni eden kadim bir görsel iletişim dilini kumaş yüzeyine aktarır. Bu proje kapsamında, Trakya halk sanatlarında doğanın şifasını ve bereketini temsil eden Hatmi Çiçeği ve Başak örüntüsü, geleneksel biçimsel kalıplarından arındırılarak yeniden kurgulanmıştır. Motif bileşenlerinin sahip olduğu organik yapı korunarak revize dilen bu birleşimde, yaşamın çeşitliliği anlatılmak istenmiştir.',
+      shortDesc: 'Trakya motiflerinden ilham alan, doğanın şifasını ve bereketini simgeleyen geleneksel hatmi çiçeği ve başak motifinin dijital yorumu.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: hatmigulu,
+      tags: ['Trakya motifleri', 'Bitkisel', 'Geleneksel'],
+      color: 'from-gray-900/40 to-black/30',
+      accentColor: 'text-gray-400',
+      accentBorder: 'border-gray-500/30',
+    },
+    {
+      id: 2,
+      title: 'Çift Gül Demeti',
+      titleEn: 'Double Rose Bouquet',
+      description: 'Anadolu ve Rumeli dokuma kültürünün en zarif bitkisel motiflerinden biri olan ve Trakya Bölgesi el sanatlarında, işlemelerinde ve çeyiz geleneklerinde derin bir iz bırakan Çift Gül Demeti motifi; birliği, uyumu, sevgiyi ve doğanın bereketini simgeler. Geleneksel kültürde güllerin ikili bir formda, yaprak ve ince dallarla birbirini tamamlayacak şekilde bir arada kullanılması, sadece estetik bir arayışın değil; aynı zamanda aile bağlarının, ortak yaşam sevincinin ve toplumsal dayanışmanın tezyini bir dışavurumudur. Trakya insanının doğanın uyanışına, baharın getirdiği canlılığa ve çiçeksel zarafete duyduğu hayranlığı yansıtan bu motif, işlendiği yüzeylerde estetik bir dengenin yanı sıra sevginin ve bolluğun kalıcı olmasını temenni eden zamansız bir görsel iletişim dilidir. Bu proje kapsamında, Trakya geleneksel motifler hafızasında sevgiyi ve birlikteliği temsil eden Çift Gül Demeti motifi, geleneksel biçimsel kalıplarından arındırılarak iki tarafa yönelen çift başlı olarak revize edilmiştir. Bu revizeyle birlikte insanın içindeki iyi ve kötünün bir anda bulunduğuna vurgu yapılmak amaçlanmıştır.',
+      shortDesc: "Trakya motiflerinden ilham alan, birliği, sevgiyi ve bolluğu simgeleyen geleneksel çift gül demeti motifinin dijital yorumu.",
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: ciftgul,
+      tags: ['Trakya motifleri', 'Bitkisel', 'Geleneksel'],
+      color: 'from-purple-900/40 to-indigo-900/30',
+      accentColor: 'text-purple-400',
+      accentBorder: 'border-purple-500/30',
+    },
+    {
+      id: 3,
+      title: 'Unutma Beni Motifi',
+      titleEn: 'Forget Me Not Motifi',
+      description: 'Trakya geleneksel motifleri arasında derin anlamlarla yer bulan Unutma Beni Çiçeği (Kır Çiçeği) motifi; sadakati, kalıcı sevgiyi, vefayı ve kültürel hafızayı simgeler. Bölgenin zengin florasından ve doğayla iç içe gelişen halk kültüründen ilham alan bu motif, küçük çiçek tomurcuklarının ve simetrik yaprak hatlarının yan yana gelmesiyle oluşan ritmik bir düzeni temsil eder. Geleneksel olarak gurbete gidenlerin arkasından duyulan özlemi dile getirmek, sevdiklerinin anısını zihinde ve kumaş yüzeyinde daima canlı tutmak amacıyla işlenen bu motif; sadece bitkisel bir işleme ögesi değil, aynı zamanda duygusal bağların kopmazlığını ve yaşanmışlıkların zamana karşı direncini fısıldayan estetik bir görsel dildir. Bu proje kapsamında, Trakya geleneksel ve işleme belleğinde sadakati ve hafızayı temsil eden Unutma Beni Çiçeği motifi, geleneksel bağlamındaki duygusal derinliği korunarak gerçekçi bir dilde yeniden revize edilmiştir. Bu revizeyle birlikte insanın kendiyle ve dışıyla buluştuğu ilişkinin birlikteliğini simgelemesi amaçlamaktadır.',
+      shortDesc: 'Trakya geleneksel motifleri arasında derin anlamlarla yer bulan Unutma Beni Çiçeği (Kır Çiçeği) motifi; sadakati, kalıcı sevgiyi, vefayı ve kültürel hafızayı simgeler. Bölgenin zengin florasından ve doğayla iç içe gelişen halk kültüründen ilham alan bu motif, küçük çiçek tomurcuklarının ve simetrik yaprak hatlarının yan yana gelmesiyle oluşan ritmik bir düzeni temsil eder. Geleneksel olarak gurbete gidenlerin arkasından duyulan özlemi dile getirmek, sevdiklerinin anısını zihinde ve kumaş yüzeyinde daima canlı tutmak amacıyla işlenen bu motif; sadece bitkisel bir işleme ögesi değil, aynı zamanda duygusal bağların kopmazlığını ve yaşanmışlıkların zamana karşı direncini fısıldayan estetik bir görsel dildir. Bu proje kapsamında, Trakya geleneksel ve işleme belleğinde sadakati ve hafızayı temsil eden Unutma Beni Çiçeği motifi, geleneksel bağlamındaki duygusal derinliği korunarak gerçekçi bir dilde yeniden revize edilmiştir. Bu revizeyle birlikte insanın kendiyle ve dışıyla buluştuğu ilişkinin birlikteliğini simgelemesi amaçlamaktadır.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: trakyagulu,
+      tags: ['Trakya Gülü', 'Bitkisel', 'Geleneksel'],
+      color: 'from-pink-900/40 to-cyan-900/30',
+      accentColor: 'text-cyan-400',
+      accentBorder: 'border-cyan-500/30',
+    },
+  ],
+};
+
 const placeholderStudents = Array.from({ length: 1 }, (_, si) => ({
   id: si + 8,
   works: [
