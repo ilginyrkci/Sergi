@@ -74,7 +74,7 @@ export default function QRPrintPage() {
                   onChange={(e) => setBaseUrl(e.target.value.replace(/\/$/, ''))}
                   className="glass-card border border-white/10 text-white/80 text-sm px-4 py-2.5 rounded-xl
                     focus:outline-none focus:border-gold-500/50 w-64 font-mono bg-transparent"
-                  placeholder="https://siteniz.com"
+                  placeholder="https://sergi-two.vercel.app/"
                 />
               </div>
               <button
