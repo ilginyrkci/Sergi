@@ -5,6 +5,10 @@
 import hatayiMotifi from '../assets/Hatayi-Motifi.jpg';
 import gulMotifi from '../assets/Gul-Motifi.jpg';
 import lalezarMotifi from '../assets/Lalezar-Motifi.jpg';
+import kocboynuzu from '../assets/Koc-boynuzu-Motifi.jpeg';
+import salmotifi from '../assets/Sal-Motifi.jpeg';
+import yildizmotifi from '../assets/Yildiz-Motifi.jpeg';
+
 
 const student1 = {
   id: 1,
@@ -60,12 +64,63 @@ const student1 = {
   ],
 };
 
-const placeholderStudents = Array.from({ length: 7 }, (_, si) => ({
-  id: si + 2,
+const student2 = {
+  id: 2,
   works: [
     {
       id: 1,
-      title: `Eser ${(si + 1) * 3 + 1}`,
+      title: 'Koçboynuzu Motifi',
+      titleEn: 'Ram\'s Horn Motif',
+      description: 'Anadolu kilim ve dokuma sanatının en bilinen sembollerinden biri olan koçboynuzu, gücü, kahramanlığı ve bereketi temsil eder. Geometrik ve keskin hatlarıyla dikkat çeken bu motif, geleneksel dokuma tezgâhlarından dijital ortama aktarılarak modern bir form kazanmıştır.',
+      shortDesc: 'Güç ve bereketi simgeleyen geleneksel Anadolu koçboynuzu motifinin dijital yorumu.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: kocboynuzu,
+      tags: ['Anadolu', 'Geometrik', 'Geleneksel'],
+      color: 'from-orange-900/40 to-red-900/30',
+      accentColor: 'text-orange-400',
+      accentBorder: 'border-orange-500/30',
+    },
+    {
+      id: 2,
+      title: 'Şal Motifi',
+      titleEn: 'Paisley Motif',
+      description: 'Doğu süsleme sanatlarının vazgeçilmezlerinden olan şal (boteh) motifi, hayat ağacı, selvi kozalağı veya alevi simgeler. Kıvrımlı ve zarif yapısıyla kumaşlardan çinilere geniş bir kullanım alanı bulan bu motif, dijital sanatın sunduğu olanaklarla yeniden hayat buluyor.',
+      shortDesc: 'Zarafet ve hayat ağacını simgeleyen klasik şal motifinin dijital dünyadaki yansıması.',
+      medium: 'Dijital İllüstrasyon / Klasik Süsleme',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: salmotifi,
+      tags: ['Şal', 'Kıvrımlı', 'Klasik'],
+      color: 'from-purple-900/40 to-indigo-900/30',
+      accentColor: 'text-purple-400',
+      accentBorder: 'border-purple-500/30',
+    },
+    {
+      id: 3,
+      title: 'Yıldız Motifi',
+      titleEn: 'Star Motif',
+      description: 'Selçuklu ve Osmanlı mimarisinde kozmosu, sonsuzluğu ve evrensel düzeni simgeleyen geometrik yıldız motifi. Çokgenlerin ve çizgilerin kusursuz matematiği ile oluşturulan bu desen, evrenin uyumunu dijital bir kompozisyonla izleyiciye sunar.',
+      shortDesc: 'Sonsuzluğu ve evrensel düzeni temsil eden geometrik yıldız motifinin modern tasarımı.',
+      medium: 'Dijital İllüstrasyon / Geometrik Tasarım',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: yildizmotifi,
+      tags: ['Yıldız', 'Geometrik', 'Selçuklu'],
+      color: 'from-blue-900/40 to-cyan-900/30',
+      accentColor: 'text-cyan-400',
+      accentBorder: 'border-cyan-500/30',
+    },
+  ],
+};
+
+const placeholderStudents = Array.from({ length: 6 }, (_, si) => ({
+  id: si + 3,
+  works: [
+    {
+      id: 1,
+      title: `Eser ${(si + 2) * 3 + 1}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -73,7 +128,7 @@ const placeholderStudents = Array.from({ length: 7 }, (_, si) => ({
     },
     {
       id: 2,
-      title: `Eser ${(si + 1) * 3 + 2}`,
+      title: `Eser ${(si + 2) * 3 + 2}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -81,7 +136,7 @@ const placeholderStudents = Array.from({ length: 7 }, (_, si) => ({
     },
     {
       id: 3,
-      title: `Eser ${(si + 1) * 3 + 3}`,
+      title: `Eser ${(si + 2) * 3 + 3}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -90,4 +145,4 @@ const placeholderStudents = Array.from({ length: 7 }, (_, si) => ({
   ],
 }));
 
-export const students = [student1, ...placeholderStudents];
+export const students = [student1, student2, ...placeholderStudents];
