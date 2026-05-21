@@ -71,7 +71,7 @@ const student2 = {
       id: 1,
       title: 'Koçboynuzu Motifi',
       titleEn: 'Ram\'s Horn Motif',
-      description: 'Anadolu kilim ve dokuma sanatının en bilinen sembollerinden biri olan koçboynuzu, gücü, kahramanlığı ve bereketi temsil eder. Geometrik ve keskin hatlarıyla dikkat çeken bu motif, geleneksel dokuma tezgâhlarından dijital ortama aktarılarak modern bir form kazanmıştır.',
+      description: 'Anadolu el sanatlarının, özellikle de Güneydoğu ve Doğu Anadolu bölgesinde sık kullanılan motiflerden olan "Eli Belinde" ve "Koç Boynuzu" motifleri, insanlık tarihinin en eski evrensel arketiplerinden biri olan dişil ve eril enerjinin kozmik dengesini simgeler. Ortada yer alan ve kollarını yukarı kaldırmış bir insan figürünü andıran "Eli Belinde" motifi; kadınlığı, doğurganlığı, bereketi, anacı koruyuculuğu ve yaşamın sürekliliğini temsil eden dişil bir semboldür. Figürün iki yanında yer alan kıvrımlı "Koç Boynuzu" motifi ise göçebe kültürlerde hayvancılığın önemine bağlı olarak doğmuş; gücü, cesareti, kahramanlığı ve eril koruyuculuğu simgeler. Bu iki zıt ama tamamlayıcı motifin geleneksel dokuma kompozisyonlarında bir arada kullanılması, sadece estetik bir bezeme düzeni oluşturmakla kalmaz; kadın erkek dengesini, aile birliğini, evrendeki zıt güçlerin uyumunu ve kötü enerjilere karşı bütüncül bir savunma kalkanını estetik bir dille ifade eder. Bu proje kapsamında, Anadolunun bu en güçlü toplumsal ve kozmik denge sembolü, geleneksel biçimsel sınırlarından arındırılarak tamamen modern olarak günümüze uyarlanmıştır.Revizemizde eli belinde ve koç boynuzu figürlerinin birbirine kenetlenen ritmik hatları evrende birlikteliği simgelemektedi',
       shortDesc: 'Güç ve bereketi simgeleyen geleneksel Anadolu koçboynuzu motifinin dijital yorumu.',
       medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
       dimensions: '4000 × 4000 px',
@@ -86,7 +86,7 @@ const student2 = {
       id: 2,
       title: 'Şal Motifi',
       titleEn: 'Paisley Motif',
-      description: 'Doğu süsleme sanatlarının vazgeçilmezlerinden olan şal (boteh) motifi, hayat ağacı, selvi kozalağı veya alevi simgeler. Kıvrımlı ve zarif yapısıyla kumaşlardan çinilere geniş bir kullanım alanı bulan bu motif, dijital sanatın sunduğu olanaklarla yeniden hayat buluyor.',
+      description: 'Kökleri Orta Asya coğrafyasına dayanan şal motifi, Güneydoğu Anadolu bölgesinin tekstil, halı, kilim ve geleneksel yazma baskı sanatında köklü bir sembolik arka plana sahiptir. Biçimsel olarak damla, yaprak veya tohuma benzeyen kıvrımlı formuyla doğanın en yalın karşılıklarından biri olan şal motifi; evrensel ve bölgesel mitolojide yaşamın başlangıcını, doğurganlığı, bereketi ve sürekliliği simgeler. Klasik süsleme sanatlarında etrafını saran simetrik yaprak ve çiçek formlarıyla birlikte Güneydoğu Anadolu’nun bereketli topraklarını ve bitki çeşitliliğini yüzeylere aktaran bezeme düzeni, sadece estetik bir değer taşımakla kalmaz; keskin kavisleriyle kötü enerjileri bertaraf ettiğine inanılan koruyucu, tılsımlı bir görsel iletişim dili niteliği taşır. Bu proje kapsamında, Güneydoğu Anadolu el sanatları hafızasında doğanın organik canlılığını temsil eden Şal desenini, bitkisel isleme motifi olması göz önüne alınarak; geleneksel bağlamından koparılmadan tamamen modern ve keskin bir grafik dille yeniden kurgulanmıştır. Güneydoğu bölgesinden aldığımız bu deseni, çalıştığımız revize haliyle birlikte köklerimiz ne kadar derinde ve bundan haberdar isek o kadar köklü olduğumuzu simgelenmesi amaçlanmıştır.',
       shortDesc: 'Zarafet ve hayat ağacını simgeleyen klasik şal motifinin dijital dünyadaki yansıması.',
       medium: 'Dijital İllüstrasyon / Klasik Süsleme',
       dimensions: '4000 × 4000 px',
@@ -101,7 +101,7 @@ const student2 = {
       id: 3,
       title: 'Yıldız Motifi',
       titleEn: 'Star Motif',
-      description: 'Selçuklu ve Osmanlı mimarisinde kozmosu, sonsuzluğu ve evrensel düzeni simgeleyen geometrik yıldız motifi. Çokgenlerin ve çizgilerin kusursuz matematiği ile oluşturulan bu desen, evrenin uyumunu dijital bir kompozisyonla izleyiciye sunar.',
+      description: 'İslam sanat ve mimarisinin, özellikle de Anadolu Selçuklu dönemi çini, taş ve ahşap işçiliğinin en karakteristik sembollerden biri olan Geometrik Yıldız ve Çiçek (Rozet) motifinin anlamı; evrensel nizamın, bütünün ve ilahi dengenin somut birer matematiksel dışavurumudur. Kökeni İslamiyet öncesi Orta Asya’ya kadar uzanan ve Selçuklu kültürüyle zirve noktasına ulaşan yıldız formlu çokgen yapılarıyla, tesadüfi birer süsleme olmanın ötesinde evrenin kusursuz düzenini, sonsuzluğu ve yaratılıştaki muazzam bütünlüğü simgeler. Merkezden dışa doğru simetrik ve ritmik bir düzenle yayılan rozet çiçek formları ise doğanın estetik dilini geometrinin soyut gücüyle birleştirerek; Güneydoğu Anadolu başta olmak üzere Anadolu’nun farklı yerlerinde asırlardır kullanılmaktadır. Bu proje kapsamında Geometrik Yıldız ve Çiçek motifi, geleneksel bağlamındaki karmaşık örgü nizamından arındırılarak tamamen modern, yalın ve minimalist bir grafik dille yeniden kurgulanmıştır. Tasarımda, şal motifini merkezden yayılan bir düzenle dağılan simetrik yaprakları ve yıldız hatları günümüze uyarladık. Bu revize ile evrensel ve içsel düzeni simgelenmesi amaçlanmı',
       shortDesc: 'Sonsuzluğu ve evrensel düzeni temsil eden geometrik yıldız motifinin modern tasarımı.',
       medium: 'Dijital İllüstrasyon / Geometrik Tasarım',
       dimensions: '4000 × 4000 px',
@@ -115,12 +115,63 @@ const student2 = {
   ],
 };
 
-const placeholderStudents = Array.from({ length: 6 }, (_, si) => ({
-  id: si + 3,
+const student3 = {
+  id: 3,
   works: [
     {
       id: 1,
-      title: `Eser ${(si + 2) * 3 + 1}`,
+      title: 'Akrep Motifi',
+      titleEn: 'Scorpion Motif',
+      description: 'Anadolu dokuma kültüründe kötü ruhlardan ve tehlikelerden korunmayı simgeleyen akrep motifi, doğanın zorlu şartlarına karşı insanın geliştirdiği bir savunma mekanizmasıdır. Sivri ve keskin hatlarıyla dikkat çeken bu geleneksel desen, dijital sanatın modern dokunuşlarıyla yeniden yorumlanarak estetik bir koruma tılsımına dönüşmüştür.',
+      shortDesc: 'Kötülüklerden korunmayı ve savunmayı simgeleyen geleneksel akrep motifinin dijital yorumu.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: akrepmotifi,
+      tags: ['Anadolu', 'Tılsım', 'Geleneksel'],
+      color: 'from-zinc-900/40 to-slate-900/30',
+      accentColor: 'text-zinc-400',
+      accentBorder: 'border-zinc-500/30',
+    },
+    {
+      id: 2,
+      title: 'Ejder Motifi',
+      titleEn: 'Dragon Motif',
+      description: 'Orta Asya mitolojisinde suların, göklerin ve hazinelerin bekçisi olarak kabul edilen ejder motifi, güç ve hakimiyetin simgesidir. Klasik sanatımızda genellikle hayat ağacını korurken betimlenen bu figür, kıvrımlı gövdesi ve mistik aurasıyla dijital çağda gücün ve bilgeliğin bir yansıması olarak karşımıza çıkıyor.',
+      shortDesc: 'Güç, hakimiyet ve bilgeliği temsil eden mitolojik ejder motifinin modern tasarımı.',
+      medium: 'Dijital İllüstrasyon / Mitolojik Tasarım',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: ejdermotifi,
+      tags: ['Mitoloji', 'Güç', 'Klasik'],
+      color: 'from-emerald-900/40 to-green-900/30',
+      accentColor: 'text-emerald-400',
+      accentBorder: 'border-emerald-500/30',
+    },
+    {
+      id: 3,
+      title: 'Kazayağı Motifi',
+      titleEn: 'Goose Foot Motif',
+      description: 'Göçebe kültürün önemli sembollerinden olan kazayağı motifi, şans, bereket ve ailenin birliğini temsil eder. Geometrik ve sade yapısıyla öne çıkan bu desen, Anadolu kilimlerindeki ritmik tekrarlarından esinlenilerek dijital bir kompozisyonda aile bağlarının ve şansın modern bir simgesi haline getirilmiştir.',
+      shortDesc: 'Şans, bereket ve aile birliğini simgeleyen kazayağı motifinin dijital estetiği.',
+      medium: 'Dijital İllüstrasyon / Geometrik Dokuma',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: kazayağımotifi,
+      tags: ['Kazayağı', 'Bereket', 'Geometrik'],
+      color: 'from-rose-900/40 to-pink-900/30',
+      accentColor: 'text-rose-400',
+      accentBorder: 'border-rose-500/30',
+    },
+  ],
+};
+
+const placeholderStudents = Array.from({ length: 5 }, (_, si) => ({
+  id: si + 4,
+  works: [
+    {
+      id: 1,
+      title: `Eser ${(si + 3) * 3 + 1}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -128,7 +179,7 @@ const placeholderStudents = Array.from({ length: 6 }, (_, si) => ({
     },
     {
       id: 2,
-      title: `Eser ${(si + 2) * 3 + 2}`,
+      title: `Eser ${(si + 3) * 3 + 2}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -136,7 +187,7 @@ const placeholderStudents = Array.from({ length: 6 }, (_, si) => ({
     },
     {
       id: 3,
-      title: `Eser ${(si + 2) * 3 + 3}`,
+      title: `Eser ${(si + 3) * 3 + 3}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -145,4 +196,4 @@ const placeholderStudents = Array.from({ length: 6 }, (_, si) => ({
   ],
 }));
 
-export const students = [student1, student2, ...placeholderStudents];
+export const students = [student1, student2, student3, ...placeholderStudents];
