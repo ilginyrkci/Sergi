@@ -50,7 +50,7 @@ export default function LoadingScreen() {
             Dijital Sergi
           </h1>
           <p className="text-white/40 text-sm tracking-widest uppercase">
-            2024 · Öğrenci Eserleri
+            2026 · Öğrenci Eserleri
           </p>
         </div>
 
