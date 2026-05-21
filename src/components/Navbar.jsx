@@ -24,16 +24,12 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
-          <div className="h-10 flex items-center justify-center bg-white/5 rounded-lg p-1.5 border border-white/10 group-hover:border-gold-500/40 transition-colors duration-300">
-            <img src={arelLogo} alt="İstanbul Arel Üniversitesi Logo" className="h-full object-contain" />
-          </div>
+
           <div className="flex flex-col">
             <span className="font-display font-semibold text-white/90 group-hover:text-white transition-colors leading-tight">
               Dijital Sergi
             </span>
-            <span className="text-[10px] text-white/50 group-hover:text-gold-400 transition-colors uppercase tracking-wider">
-              İstanbul Arel Üniversitesi
-            </span>
+
           </div>
         </Link>
 
