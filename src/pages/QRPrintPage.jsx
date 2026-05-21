@@ -3,9 +3,7 @@ import { QRCodeSVG } from 'qrcode.react';
 import { students } from '../data/students';
 
 export default function QRPrintPage() {
-  const [baseUrl, setBaseUrl] = useState(
-    typeof window !== 'undefined' ? window.location.origin : 'http://localhost:5173'
-  );
+  const [baseUrl, setBaseUrl] = useState('https://sergi-two.vercel.app');
   const printRef = useRef(null);
 
   const handlePrint = () => window.print();
@@ -74,7 +72,7 @@ export default function QRPrintPage() {
                   onChange={(e) => setBaseUrl(e.target.value.replace(/\/$/, ''))}
                   className="glass-card border border-white/10 text-white/80 text-sm px-4 py-2.5 rounded-xl
                     focus:outline-none focus:border-gold-500/50 w-64 font-mono bg-transparent"
-                  placeholder="https://sergi-two.vercel.app/"
+                  placeholder="https://sergi-two.vercel.app"
                 />
               </div>
               <button

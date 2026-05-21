@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import arelLogo from '../assets/arel_logo.png';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -22,17 +23,18 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2.5 group">
-          <div className="w-8 h-8 rounded-lg border border-gold-500/40 flex items-center justify-center
-            group-hover:border-gold-400/60 transition-colors duration-300 glass-card">
-            <svg className="w-4 h-4 text-gold-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-              <circle cx="12" cy="12" r="4" />
-              <path strokeLinecap="round" d="M12 3v2M12 19v2M3 12h2M19 12h2" />
-            </svg>
+        <Link to="/" className="flex items-center gap-3 group">
+          <div className="h-10 flex items-center justify-center bg-white/5 rounded-lg p-1.5 border border-white/10 group-hover:border-gold-500/40 transition-colors duration-300">
+            <img src={arelLogo} alt="İstanbul Arel Üniversitesi Logo" className="h-full object-contain" />
           </div>
-          <span className="font-display font-semibold text-white/90 group-hover:text-white transition-colors">
-            Dijital Sergi
-          </span>
+          <div className="flex flex-col">
+            <span className="font-display font-semibold text-white/90 group-hover:text-white transition-colors leading-tight">
+              Dijital Sergi
+            </span>
+            <span className="text-[10px] text-white/50 group-hover:text-gold-400 transition-colors uppercase tracking-wider">
+              İstanbul Arel Üniversitesi
+            </span>
+          </div>
         </Link>
 
         {/* Right side */}
