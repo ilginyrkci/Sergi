@@ -23,7 +23,9 @@ import suyolu from '../assets/Su-Yolu.jpeg';
 import trakyagulu from '../assets/Trakya-Gul.jpeg';
 import hatmigulu from '../assets/Hatmi-Gulu.jpeg';
 import ciftgul from '../assets/Gul-Cift.jpeg';
-
+import gozmotifi from '../assets/Goz.jpeg';
+import kocmotifi from '../assets/Koc-Motifi.jpeg';
+import yildizsuyolu from '../assets/Yildiz-Su-Yolu.jpeg';
 
 
 
@@ -388,34 +390,55 @@ const student7 = {
   ],
 };
 
-const placeholderStudents = Array.from({ length: 1 }, (_, si) => ({
-  id: si + 8,
+const student8 = {
+  id: 8,
   works: [
     {
       id: 1,
-      title: `Eser ${(si + 7) * 3 + 1}`,
-      description: 'Eser açıklaması buraya eklenecek.',
-      medium: 'Teknik belirtilmedi',
+      title: 'Göz Motifi',
+      titleEn: 'Eye Motif',
+      description: 'Doğu Karadeniz bölgesi düz dokuma kültüründe ve halk inanışlarında en yaygın sembollerden biri olan Göz motifi, haset bakışların olumsuz etkisini dengelemek amacıyla kullanılan köklü bir koruma ögesidir. Geleneksel kültürde "kem gözün" zararlı etkisini yine bir göz sembolünün önleyeceğine inanılması, bu motifin geometrik bir düzlemde eşkenar üçgen, baklava dilimi veya stilize edilmiş dinamik kareler halinde dokuma yüzeylerine işlenmesini sağlamıştır. Sadece tekstil ürünlerinde değil; kıyafetlerden takılara kadar günlük yaşamın her alanında bir tür tılsım ve manevi kalkan olarak yer bulan Göz motifi, Doğu Karadeniz insanının kötü enerjiyi savuşturma, haneyi koruma ve yaşam alanlarına dingin bir nizam kazandırma içgüdüsünü somutlaştıran zamansız bir görsel iletişim dilidir. Bu proje kapsamında Doğu Karadenizin ikonik koruma sembolü olan göz motifi, geleneksel soyutlama sınırlarından çıkarılarak düzenli ve modern bir grafik düzenlemeyle yeniden kurgulanmıştır. Tasarımda, motifin iç içe geçen basamaklı katmanları, merkezî bir ritim oluşturacak şekilde yüzeye yerleştirilmiş; düz akışı yansıtacak biçimde günümüze uyarlanmıştır. Simgesel olarak insan hayatını dış etkilerden koruyan bir sembol olarak anlamlandırılmıştır.',
+      shortDesc: 'Doğu Karadeniz motiflerinden ilham alan, doğanın şifasını ve bereketini simgeleyen geleneksel hatmi çiçeği ve başak motifinin dijital yorumu.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
       year: 2026,
-      image: null,
+      image: gozmotifi,
+      tags: ['Doğu Karadeniz motifleri', 'Göz Motifi', 'Geleneksel'],
+      color: 'from-gray-900/40 to-black/30',
+      accentColor: 'text-gray-400',
+      accentBorder: 'border-gray-500/30',
     },
     {
       id: 2,
-      title: `Eser ${(si + 7) * 3 + 2}`,
-      description: 'Eser açıklaması buraya eklenecek.',
-      medium: 'Teknik belirtilmedi',
+      title: 'Koç Motifi',
+      titleEn: 'Ram Motif',
+      description: 'Karadeniz bölgesi düz dokumalarında (kilim, heybe, çorap vb.) sıklıkla rastlanan Koç Boynuzu motifi, Türk kültürü ve Anadolu motif dağarcığının en temel figürlerinden biri olarak bereketi, gücü, kahramanlığı ve koruyuculuğu simgeler. Bölge insanının halk inanışlarında doğurma, üreme ve üretkenlik kavramlarıyla doğrudan ilişkilendirilen bu sembol, özellikle soyların devamlılığındaki sarsılmaz gücü vurgulamak amacıyla kullanılmıştır. Karadeniz kadınlarının dokuma tezgâhlarında, kıvrımlı geometrisiyle sadece fiziksel bir gücü değil, aynı zamanda haneyi dış tehditlere karşı savunan ve kötü enerjileri uzaklaştıran manevi bir kalkanı temsil etmektedir. Bu proje kapsamında, Karadeniz dokuma belleğinin bu en güçlü sembolü, geleneksel biçimsel kalıplarından arındırılarak monokromatik, minimalist ve dinamik bir grafik örüntüyle yeniden kurgulanmıştır. Tasarımda, motifin iç içe geçen ve basamaklı katmanlardan oluşan ritmik yapısıyla bu revizede insanın hayatında üretkenlikle birlikte gelen bereketi simgelemek istedik.',
+      shortDesc: "Karadeniz motiflerinden ilham alan, bereketi, gücü, kahramanlığı ve koruyuculuğu simgeleyen geleneksel koç motifi motifinin dijital yorumu.",
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
       year: 2026,
-      image: null,
+      image: kocmotifi,
+      tags: ['Karadeniz motifleri', 'Koç Motifi', 'Geleneksel'],
+      color: 'from-purple-900/40 to-indigo-900/30',
+      accentColor: 'text-purple-400',
+      accentBorder: 'border-purple-500/30',
     },
     {
       id: 3,
-      title: `Eser ${(si + 7) * 3 + 3}`,
-      description: 'Eser açıklaması buraya eklenecek.',
-      medium: 'Teknik belirtilmedi',
+      title: 'Yıldız ve Su Yolu',
+      titleEn: 'Star and Water Path',
+      description: 'Doğu Karadeniz bölgesinde geleneksel desenlerde çok köklü bir yere sahip olan Yıldız ve Su Yolu motiflerinin birleşimi, doğayla iç içe yaşayan bölge insanının gökyüzü, yeryüzü ve yaşamın döngüsel akışıyla kurduğu kozmik bağın karşılık bulduğu bir ifadedir. Sekiz köşeli yapısıyla öne çıkan Yıldız motifi; evrensel düzeni, yön bulmayı, gece yolculuklarının gizemini simgelerken; merhamet, sabır ve sadakat gibi erdemleri temsil eder. Düzeni ritmik dalgalarla kesen Su Yolu motifi ise yaratılışın temeli ve hayatın kaynağı olan suyun akışını, sürekliliği, bereketi ve ruhsal yenilenmeyi simgeler. Karadeniz’in hırçın akarsularını ve göğe yükselen dağlarında geceyi aydınlatan yıldızları anımsatan bu iki kadim sembolün bir arada kullanılması, nazara ve olumsuzluklara karşı koruyucu bir kalkan oluştururken, yaşamın kesintisiz devam eden döngüsünü ve insan kaderinin evrensel nizamla uyumunu estetik bir dille anlatır. Bu proje kapsamında, Doğu Karadeniz bölgesinin motiflerinin belleğinde kaderi ve yaşamın akışını simgeleyen Yıldız ve Su Yolu motifleri, geleneksel bağlamlarından koparılmadan dinamik bir düzenle yeniden örülmüştür. Bu revize ile birlikte geçmişin tılsımlı mirasının insan hayatında yankı bulması amaçlanmıştır.',
+      shortDesc: 'Doğu Karadeniz motiflerinden ilham alan, kaderi, yön bulmayı, suyun akışını ve evrensel düzeni simgeleyen yıldız ve su yolu motiflerinin birleşimi.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
       year: 2026,
-      image: null,
+      image: yildizsuyolu,
+      tags: ['Doğu Karadeniz motifleri', 'Yıldız ve Su Yolu', 'Geleneksel'],
+      color: 'from-pink-900/40 to-cyan-900/30',
+      accentColor: 'text-cyan-400',
+      accentBorder: 'border-cyan-500/30',
     },
   ],
-}));
+};
 
-export const students = [student1, student2, student3, student4, student5, student6, student7, ...placeholderStudents];
+export const students = [student1, student2, student3, student4, student5, student6, student7, student8];
