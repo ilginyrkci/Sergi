@@ -229,7 +229,7 @@ const student4 = {
     },
   ],
 };
-const placeholderStudents = Array.from({ length: 5 }, (_, si) => ({
+const placeholderStudents = Array.from({ length: 4 }, (_, si) => ({
   id: si + 5,
   works: [
     {
