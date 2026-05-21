@@ -96,10 +96,6 @@ export default function HomePage() {
           </Link>
         </div>
 
-        <footer className="mt-12 text-center">
-          <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-6" />
-          <p className="text-white/20 text-sm">© 2026 Dijital Sergi · Tüm hakları saklıdır</p>
-        </footer>
       </div>
     </main>
   );
