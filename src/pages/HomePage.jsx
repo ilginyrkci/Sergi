@@ -39,10 +39,10 @@ export default function HomePage() {
             <div className="h-px w-12 sm:w-20 bg-gradient-to-l from-transparent to-gold-500/50" />
           </div>
 
-          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-            <span className="gold-gradient-text animate-glow">Eserler</span>
+          <h1 className="font-display text-2xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-4">
+            <span className="text-white/90">Geleneksel Desenlerin Modernize Ederek</span>
             <br />
-            <span className="text-white/90">Sergisi</span>
+            <span className="gold-gradient-text animate-glow">Lazer Tekniği Uygulanması</span>
           </h1>
 
           <p className="text-white/50 text-base sm:text-lg max-w-xl mx-auto leading-relaxed mt-4">
