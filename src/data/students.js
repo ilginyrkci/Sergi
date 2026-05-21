@@ -17,7 +17,9 @@ import cengelagzi from '../assets/Cengel-Agzi.jpeg'
 import antikamotifi from '../assets/Antika-Motifi.jpeg';
 import kozmiklalemotifi from '../assets/Kozmik-Lale.jpeg';
 import kozmiklaledalmotifi from '../assets/Kozmik-Lale-Dal-Motifi.jpeg';
-
+import akrepmotifi2 from '../assets/Akrep-Motifi-2.jpeg';
+import hayatagacimotifi from '../assets/Hayat-Agaci-Motifi.jpeg';
+import suyolu from '../assets/Su-Yolu.jpeg';
 
 
 
@@ -281,12 +283,64 @@ const student5 = {
     },
   ],
 };
-const placeholderStudents = Array.from({ length: 3 }, (_, si) => ({
-  id: si + 6,
+
+
+const student6 = {
+  id: 6,
   works: [
     {
       id: 1,
-      title: `Eser ${(si + 5) * 3 + 1}`,
+      title: 'Su Yolu Motifi',
+      titleEn: 'Waterway Motif',
+      description: 'Türk süsleme ve dokuma sanatlarının en köklü geometrik bezemelerinden biri olan Su Yolu motifi, kırık hatların veya dik açıların birbirini kesintisiz bir ritimle takip etmesinden doğan evrensel bir semboldür. Tarihsel süreçte kilimlerden mimari şeritlere, yazma kenarlarından giysi süslemelerine kadar Türk el sanatlarının her döneminde yüzeyi sınırlandırmak veya kompozisyona ritim katmak amacıyla zemin/kenar suyu olarak yoğun biçimde kullanılmıştır. Sembolik anlamda bu motif; adından da anlaşılacağı üzere suyu, yaşamın kaynağını, zamanın akışını ve evrensel sürekliliği simgeler; kendi içine bükülen ama durmaksızın ilerleyen çizgisel yapısıyla, doğadaki döngüyü ve insanın yaşam yolculuğundaki ritmik devinimi temsil eder. Bu proje kapsamında, geleneksel el sanatlarımızda genellikle yüzeyi çerçevelemek için yardımcı bir unsur olarak kullanılan Su Yolu motifi, odak noktasına alınarak çağdaş ve modern bir grafik dille yeniden kurgulanmıştır. Tasarımda motif, 45 derecelik bir açıyla döndürülerek alışılagelmiş yatay sınır algısı kırılmış ve ikilik üzerinden çift katmanlı bir yapıya kavuşturulmuştur; üstteki tam dolu siyah hatlar geçmişin silinmez, net ve güçlü hafızasını sembolize ederken, alttaki paralel çizgilerden oluşan gri form ise zaman içindeki kırılmayı ve motifin günümüz tasarım dilindeki dönüşümünü anlatmaktadır. Bu revizeyle birlikte motiflerimizdeki zamansız akışı ve sürekliliği simgelemektedir.',
+      shortDesc: 'Türk süsleme ve dokuma sanatlarından ilham alan, suyun ve zamanın sürekliliğini simgeleyen geleneksel suyolu motifinin dijital yorumu.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: suyolu,
+      tags: ['Türk Sanatları', 'Geometrik', 'Geleneksel', 'Sürekli'],
+      color: 'from-gray-900/40 to-black/30',
+      accentColor: 'text-gray-400',
+      accentBorder: 'border-gray-500/30',
+    },
+    {
+      id: 2,
+      title: 'Hayat Ağacı',
+      titleEn: 'Tree of Life',
+      description: 'İnsanlık tarihinin ve Türk mitolojisinin en evrensel sembollerinden biri olan Hayat Ağacı motifi, yeraltı, yeryüzü ve gökyüzünü birbirine bağlayan kozmik bir ekseni, ölümsüzlüğü ve türeyişi simgelemektedir. Şaman kökenlerden İslamiyet sonrası döneme kadar Türk kültür belleğinde derin izler bırakan hayat ağacı sembolü, düz dokumalardan mezar taşlarına, çinilerden mimari yapılara kadar en sık işlenen koruyucu ve uğurlu olduğu düşünülen motiflerin başında gelir. Bitkisel ve geometrik kökenli bir motif olup, köklerinden göğe doğru simetrik basamaklar veya dallar halinde yükselen bu form; sadece fiziksel bir bitkiyi değil, evrensel nizamı, soyun devamlılığını, yaşamın zorluklara karşı direncini ve insanın spiritüel olgunlaşma yolculuğunu anlatan çok katmanlı felsefi bir arka plana sahiptir. Bu proje kapsamında, Türkiyenin zengin desen mirasının en görkemli simgelerinden biri olan Hayat Ağacı motifi, geleneksel bağlamından koparılmadan tamamen geleceğe dikkat çekerek, keskin ve minimalist bir grafik dille yeniden kurgulanmıştır. Tasarımda, motifin göğe yükselen simetrik dalları ve uyumlu ton geçişleri, hayat ağacının kök salma hikayesini bir eyleme dönüştürmek amaçlanmıştır. Geleneksel kökenlerin ve insan yaşamının günümüzde de köklenmesinin önemine dikkat çekilmek istenmiştir.',
+      shortDesc: "Trakya yöresi dokumalarından ilham alan, evrensel nizamı, soyun devamlılığını, yaşamın zorluklara karşı direncini ve insanın spiritüel olgunlaşma yolculuğunu simgeleyen geleneksel hayat ağacı motifinin dijital yorumu.",
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: hayatagacimotifi,
+      tags: ['Hayat Ağacı', 'Geometrik', 'Trakya'],
+      color: 'from-purple-900/40 to-indigo-900/30',
+      accentColor: 'text-purple-400',
+      accentBorder: 'border-purple-500/30',
+    },
+    {
+      id: 3,
+      title: 'Akrep Motifi',
+      titleEn: 'Scorpion',
+      description: 'Anadolu dokuma ve el sanatlarında hayvansal kökenli sembollerin en karakteristik örneklerinden biri olan Akrep motifi, binlerce yıllık bir korunma, savunma ve tılsım psikolojisinin somutlaşmış formudur. Geleneksel kültürde insanoğlu, doğanın getirdiği ölümcül tehlikelerden ve dış tehditlerden korunmak adına, zararından korktuğu canlıların formlarını kilim ve dokuma yüzeylerine işleyerek bir tür manevi zırh veya savunma kalkanı oluşturmuştur. Bu doğrultuda Akrep motifi; sadece fiziksel olarak zehirli bir hayvandan korunmayı değil, aynı zamanda haneyi, aileyi ve ruhu kötülüklerden, kem gözlerden ve nazardan uzak tutmayı amaçlayan, Anadolu insanının sarsılmaz kararlılığını ve köklü inanışlarını simgeleyen geometrik bir semboldür. Bu proje kapsamında, Anadolu’nun kadim korunma ve savunma sembolü olan Akrep motifi; geometrik ve keskin çizgilerle yeniden modernize edildi. Günümüzde maruz kaldığımız uyaranlardan korunmak için, akrebin meşhur zehrini ve korunma iç güdüsünü sert katmanlarla birleştirerek bir zırh anlamına gelmesi için çalıştık. Bu adımlarla birlikte geleneksel zanaat mirasımızı sürdürülebilirlikle entegre edip, zamansız dönüşümünün simgelenmesi amaçlanmıştır.',
+      shortDesc: 'Anadolu dokuma ve el sanatlarında hayvansal kökenli sembollerin en karakteristik örneklerinden biri olan Akrep motifi, binlerce yıllık bir korunma, savunma ve tılsım psikolojisinin somutlaşmış formudur. Geleneksel kültürde insanoğlu, doğanın getirdiği ölümcül tehlikelerden ve dış tehditlerden korunmak adına, zararından korktuğu canlıların formlarını kilim ve dokuma yüzeylerine işleyerek bir tür manevi zırh veya savunma kalkanı oluşturmuştur. Bu doğrultuda Akrep motifi; sadece fiziksel olarak zehirli bir hayvandan korunmayı değil, aynı zamanda haneyi, aileyi ve ruhu kötülüklerden, kem gözlerden ve nazardan uzak tutmayı amaçlayan, Anadolu insanının sarsılmaz kararlılığını ve köklü inanışlarını simgeleyen geometrik bir semboldür. Bu proje kapsamında, Anadolu’nun kadim korunma ve savunma sembolü olan Akrep motifi; geometrik ve keskin çizgilerle yeniden modernize edildi. Günümüzde maruz kaldığımız uyaranlardan korunmak için, akrebin meşhur zehrini ve korunma iç güdüsünü sert katmanlarla birleştirerek bir zırh anlamına gelmesi için çalıştık. Bu adımlarla birlikte geleneksel zanaat mirasımızı sürdürülebilirlikle entegre edip, zamansız dönüşümünün simgelenmesi amaçlanmıştır.',
+      medium: 'Dijital İllüstrasyon / Geleneksel Dokuma Yorumu',
+      dimensions: '4000 × 4000 px',
+      year: 2026,
+      image: akrepmotifi2,
+      tags: ['Akrep Motifi', 'Geometrik', 'Anadolu'],
+      color: 'from-blue-900/40 to-cyan-900/30',
+      accentColor: 'text-cyan-400',
+      accentBorder: 'border-cyan-500/30',
+    },
+  ],
+};
+const placeholderStudents = Array.from({ length: 2 }, (_, si) => ({
+  id: si + 7,
+  works: [
+    {
+      id: 1,
+      title: `Eser ${(si + 6) * 3 + 1}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -294,7 +348,7 @@ const placeholderStudents = Array.from({ length: 3 }, (_, si) => ({
     },
     {
       id: 2,
-      title: `Eser ${(si + 5) * 3 + 2}`,
+      title: `Eser ${(si + 6) * 3 + 2}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -302,7 +356,7 @@ const placeholderStudents = Array.from({ length: 3 }, (_, si) => ({
     },
     {
       id: 3,
-      title: `Eser ${(si + 5) * 3 + 3}`,
+      title: `Eser ${(si + 6) * 3 + 3}`,
       description: 'Eser açıklaması buraya eklenecek.',
       medium: 'Teknik belirtilmedi',
       year: 2026,
@@ -311,4 +365,4 @@ const placeholderStudents = Array.from({ length: 3 }, (_, si) => ({
   ],
 }));
 
-export const students = [student1, student2, student3, student4, student5, ...placeholderStudents];
+export const students = [student1, student2, student3, student4, student5, student6, ...placeholderStudents];
