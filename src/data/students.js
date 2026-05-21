@@ -31,6 +31,8 @@ import yildizsuyolu from '../assets/Yildiz-Su-Yolu.jpeg';
 
 const student1 = {
   id: 1,
+  designer: 'Zeynep Özen',
+  region: 'Marmara Bölgesi',
   works: [
     {
       id: 1,
@@ -85,6 +87,8 @@ const student1 = {
 
 const student2 = {
   id: 2,
+  designer: 'Ezel Kırbaş',
+  region: 'Güneydoğu Anadolu Bölgesi',
   works: [
     {
       id: 1,
@@ -136,6 +140,8 @@ const student2 = {
 
 const student3 = {
   id: 3,
+  designer: 'Gülçin Ateş',
+  region: 'Karadeniz Bölgesi',
   works: [
     {
       id: 1,
@@ -188,6 +194,8 @@ const student3 = {
 
 const student4 = {
   id: 4,
+  designer: 'Esmanur Yıldırım',
+  region: 'Ege Bölgesi',
   works: [
     {
       id: 1,
@@ -238,6 +246,8 @@ const student4 = {
 };
 const student5 = {
   id: 5,
+  designer: 'Aleyna Burunsuz',
+  region: 'Marmara Bölgesi',
   works: [
     {
       id: 1,
@@ -290,6 +300,8 @@ const student5 = {
 
 const student6 = {
   id: 6,
+  designer: 'Eylül Kayımtu',
+  region: 'Akdeniz Bölgesi',
   works: [
     {
       id: 1,
@@ -341,6 +353,8 @@ const student6 = {
 
 const student7 = {
   id: 7,
+  designer: 'Yasemin Yıldırmaz',
+  region: 'Marmara Bölgesi',
   works: [
     {
       id: 1,
@@ -392,6 +406,8 @@ const student7 = {
 
 const student8 = {
   id: 8,
+  designer: 'Sema Mavzer',
+  region: 'Karadeniz Bölgesi',
   works: [
     {
       id: 1,

@@ -132,7 +132,7 @@ function StudentCard({ student, index }) {
         {previewWork?.image ? (
           <img
             src={previewWork.image}
-            alt={`Sanatçı ${student.id} önizleme`}
+            alt={`${student.designer || `Sanatçı ${student.id}`} önizleme`}
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-70"
           />
         ) : (
@@ -158,7 +158,7 @@ function StudentCard({ student, index }) {
       <div className="p-4 flex flex-col gap-3">
         <div>
           <h2 className="font-display text-base font-bold text-white group-hover:text-gold-300 transition-colors">
-            Sanatçı {student.id}
+            {student.designer || `Sanatçı ${student.id}`}
           </h2>
           <p className="text-white/30 text-[10px] mt-0.5 truncate">
             {student.works.map((w) => w.title).join(' · ')}

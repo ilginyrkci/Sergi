@@ -125,7 +125,7 @@ export default function QRPrintPage() {
             <div key={`print-${student.id}-${work.id}`} className="qr-card">
               <QRCodeSVG value={url} size={100} bgColor="#ffffff" fgColor="#000000" />
               <p className="qr-card-label" style={{ textAlign: 'center', marginBottom: 2 }}>
-                Sanatçı #{String(student.id).padStart(2, '0')}
+                {student.designer || `Sanatçı #${String(student.id).padStart(2, '0')}`}
               </p>
               <p className="qr-card-title" style={{ textAlign: 'center', marginBottom: 4 }}>
                 {work.title}

@@ -35,16 +35,22 @@ export default function StudentPage() {
         <div className={`flex items-center gap-2 mb-10 text-sm transition-all duration-500 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
           <Link to="/" className="text-white/30 hover:text-white/60 transition-colors">Sergi</Link>
           <span className="text-white/20">/</span>
-          <span className="text-white/60">Sanatçı {student.id}</span>
+          <span className="text-white/60">{student.designer || `Sanatçı ${student.id}`}</span>
         </div>
 
         {/* Header */}
         <header className={`mb-12 transition-all duration-700 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
           <div className="flex items-end justify-between gap-4 flex-wrap">
             <div>
-              <span className="exhibit-badge mb-3 inline-flex">Sanatçı #{String(student.id).padStart(2, '0')}</span>
+              <span className="exhibit-badge mb-3 inline-flex">
+                {student.region ? `${student.region} İlhamlı` : `Sanatçı #${String(student.id).padStart(2, '0')}`}
+              </span>
               <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
-                Sanatçı <span className="gold-gradient-text">{student.id}</span>
+                {student.designer ? (
+                  <span className="gold-gradient-text">{student.designer}</span>
+                ) : (
+                  <>Sanatçı <span className="gold-gradient-text">{student.id}</span></>
+                )}
               </h1>
               <p className="text-white/40 mt-2 text-sm">{student.works.length} özgün eser · 2026</p>
             </div>

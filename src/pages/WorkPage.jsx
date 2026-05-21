@@ -45,7 +45,7 @@ export default function WorkDetailPage() {
               <Link to="/" className="text-white/30 hover:text-white/60 transition-colors">Sergi</Link>
               <span className="text-white/20">/</span>
               <Link to={`/student/${student.id}`} className="text-white/30 hover:text-white/60 transition-colors">
-                Sanatçı {student.id}
+                {student.designer || `Sanatçı ${student.id}`}
               </Link>
               <span className="text-white/20">/</span>
               <span className="text-white/50 truncate max-w-[120px]">{work.title}</span>
@@ -62,7 +62,7 @@ export default function WorkDetailPage() {
               {work.image ? (
                 <img
                   src={work.image}
-                  alt={`${work.title} — Sanatçı ${student.id}`}
+                  alt={`${work.title} — ${student.designer || `Sanatçı ${student.id}`}`}
                   className={`w-full object-cover transition-all duration-700 max-h-[60vh] sm:max-h-[70vh]
                     ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
                   onLoad={() => setImageLoaded(true)}
@@ -106,7 +106,7 @@ export default function WorkDetailPage() {
                 <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-2">
                   {work.title}
                 </h1>
-                <span className="exhibit-badge">Sanatçı #{String(student.id).padStart(2, '0')}</span>
+                <span className="exhibit-badge">{student.designer || `Sanatçı #${String(student.id).padStart(2, '0')}`}</span>
               </div>
 
               <div className="glass-card p-6">
@@ -129,7 +129,8 @@ export default function WorkDetailPage() {
                   { label: 'Teknik', value: work.medium || '—' },
                   work.dimensions ? { label: 'Boyut', value: work.dimensions } : null,
                   { label: 'Yıl', value: String(work.year || 2026) },
-                  { label: 'Sanatçı', value: `#${String(student.id).padStart(2, '0')}` },
+                  { label: 'Tasarımcı', value: student.designer || `Sanatçı #${String(student.id).padStart(2, '0')}` },
+                  student.region ? { label: 'İlham Alınan Yöre', value: student.region } : null,
                 ].filter(Boolean).map((item) => (
                   <div key={item.label}>
                     <span className="text-white/30 text-xs uppercase tracking-wider block mb-0.5">{item.label}</span>
