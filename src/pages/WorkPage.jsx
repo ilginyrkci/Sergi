@@ -126,7 +126,7 @@ export default function WorkDetailPage() {
                 <h2 className="text-white/40 text-xs font-semibold uppercase tracking-widest">Eser Bilgileri</h2>
                 {[
                   { label: 'Başlık', value: work.title },
-                  { label: 'Teknik', value: work.medium || '—' },
+                  { label: 'Teknik', value: 'Lazer Tekniği' },
                   work.dimensions ? { label: 'Boyut', value: work.dimensions } : null,
                   { label: 'Yıl', value: String(work.year || 2026) },
                   { label: 'Tasarımcı', value: student.designer || `Tasarımcı #${String(student.id).padStart(2, '0')}` },

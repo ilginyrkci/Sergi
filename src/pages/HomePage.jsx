@@ -46,7 +46,8 @@ export default function HomePage() {
           </h1>
 
           <p className="text-white/50 text-base sm:text-lg max-w-xl mx-auto leading-relaxed mt-4">
-            8 tasarımcı, 24 özgün eser. Dijital sanatın sınırlarını keşfedin.
+            8 tasarımcı, 24 özgün eser.<br />
+            Sergi Koordinatörü: Öğr. Gör. Dr. Ruşen İNAN
           </p>
 
           <div className="flex items-center justify-center gap-8 sm:gap-12 mt-8">
