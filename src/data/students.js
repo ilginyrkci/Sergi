@@ -92,7 +92,7 @@ const student2 = {
   works: [
     {
       id: 1,
-      title: 'Koçboynuzu Motifi',
+      title: 'Eli Belinde & Koç Boynuzu',
       titleEn: 'Ram\'s Horn Motif',
       description: 'Anadolu el sanatlarının, özellikle de Güneydoğu ve Doğu Anadolu bölgesinde sık kullanılan motiflerden olan "Eli Belinde" ve "Koç Boynuzu" motifleri, insanlık tarihinin en eski evrensel arketiplerinden biri olan dişil ve eril enerjinin kozmik dengesini simgeler. Ortada yer alan ve kollarını yukarı kaldırmış bir insan figürünü andıran "Eli Belinde" motifi; kadınlığı, doğurganlığı, bereketi, anacı koruyuculuğu ve yaşamın sürekliliğini temsil eden dişil bir semboldür. Figürün iki yanında yer alan kıvrımlı "Koç Boynuzu" motifi ise göçebe kültürlerde hayvancılığın önemine bağlı olarak doğmuş; gücü, cesareti, kahramanlığı ve eril koruyuculuğu simgeler. Bu iki zıt ama tamamlayıcı motifin geleneksel dokuma kompozisyonlarında bir arada kullanılması, sadece estetik bir bezeme düzeni oluşturmakla kalmaz; kadın erkek dengesini, aile birliğini, evrendeki zıt güçlerin uyumunu ve kötü enerjilere karşı bütüncül bir savunma kalkanını estetik bir dille ifade eder. Bu proje kapsamında, Anadolunun bu en güçlü toplumsal ve kozmik denge sembolü, geleneksel biçimsel sınırlarından arındırılarak tamamen modern olarak günümüze uyarlanmıştır.Revizemizde eli belinde ve koç boynuzu figürlerinin birbirine kenetlenen ritmik hatları evrende birlikteliği simgelemektedi',
       shortDesc: 'Güç ve bereketi simgeleyen geleneksel Anadolu koçboynuzu motifinin dijital yorumu.',
